@@ -2,3 +2,9 @@
   Version: 1
   Author: Jennifer, Max, and Krizella*/
 
+#bgimg{
+	height: 100vh;
+	background: url(images/land.jpg);
+	background-size: 100%;
+
+}

@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 
-	<img src="land.jpg" alt="background img"/>
-
+<div class="col-xs-12" id="bgimg">
+	<!-- <img class="bgimg" src="<?php bloginfo('template_directory'); ?>/images/land.jpg" alt="background img"/> -->
+</div>
 <div class="col-xs-12 searchbar">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime modi atque saepe soluta quidem natus, quam ducimus id ipsa incidunt dolores corrupti a non possimus, sequi quod cupiditate quos sit!</p>
+	<?php if ( ! dynamic_sidebar('headerAdZone') ) : ?>
+	<?php endif; ?>
 </div>
 
 
