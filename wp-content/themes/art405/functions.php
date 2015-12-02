@@ -1,11 +1,14 @@
 <?php
+// register menu
 add_action( 'after_setup_theme', 'register_my_menu' );
 function register_my_menu() {
   register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
 
+//add theme support
 add_theme_support( 'post-thumbnails' );
 
+//add widgets
 function arphabet_widgets_init() {
 
 	register_sidebar( array(
@@ -20,11 +23,16 @@ function arphabet_widgets_init() {
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
-register_sidebar( array(
-	'name' => ('Header Ad Zone'),
-	'id' => 'headerAdZone',
-	'description' => ('The ad zone that appears at the top of the page'),
-	'before_widget' => '',
-	'after_widget' => '',
-	)
-);
+function stockstalker_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Home Page Search Bar',
+		'id'            => 'home_page_search_bar',
+		'before_widget' => '<aside>',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+}
+add_action( 'widgets_init', 'stockstalker_widgets_init' );
