@@ -32,7 +32,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 400px;
+	width: 500px;
 	text-align: center;
 }
 
@@ -41,7 +41,9 @@ input#s{
 	width: 300px;
 	font-size: 20pt;
 	padding: 15px;
-	border-radius: 25px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+/*	border-radius: 25px;*/
 	border: 0px;
 	vertical-align: middle;
 	background: rgba(127,118,116,0.75);
@@ -52,7 +54,18 @@ textarea:focus, input:focus{
 button, input, optgroup, select, textarea{
 	color: rgba(0,128,185,1);
 }
-#searchsubmit{}
+#searchsubmit{
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	line-height: 15px;
+	padding: 23px;
+	border: 0px;
+	vertical-align: middle;
+	font-size: 20pt;
+	/*background: rgba(127,118,116,1);*/
+	margin-left: -3px;
+}
+
 }
 
 
@@ -60,10 +73,15 @@ button, input, optgroup, select, textarea{
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 /*body{background-color: red;}*/
-.sidebar-php{width: 450px;}
+.sidebar-php{width: 550px;}
 input#s{
 	line-height: 20px;
 	width: 350px;
+	font-size: 22pt;
+}
+#searchsubmit{
+	line-height: 20px;
+	padding: 21.5px;
 	font-size: 22pt;
 }
 
@@ -72,10 +90,15 @@ input#s{
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 /*body{background-color: green;}*/
-.sidebar-php{width: 500px;}
+.sidebar-php{width: 550px;}
 input#s{
 	line-height: 30px;
 	width: 400px;
+	font-size: 24pt;
+}
+#searchsubmit{
+	line-height: 30px;
+	padding: 18.5px;
 	font-size: 24pt;
 }
 
@@ -84,10 +107,15 @@ input#s{
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 /*body{background-color: yellow;}*/
-.sidebar-php{width: 550px;}
+.sidebar-php{width: 600px;}
 input#s{
 	line-height: 40px;
 	width: 450px;
+	font-size: 27pt;
+}
+#searchsubmit{
+	line-height: 40px;
+	padding: 16px;
 	font-size: 27pt;
 }
 
@@ -96,10 +124,15 @@ input#s{
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 /*body{background-color: pink;}*/
-.sidebar-php{width: 600px;}
+.sidebar-php{width: 700px;}
 input#s{
 	line-height: 50px;
 	width: 500px;
+	font-size: 30pt;
+}
+#searchsubmit{
+	line-height: 50px;
+	padding: 15px;
 	font-size: 30pt;
 }
 
