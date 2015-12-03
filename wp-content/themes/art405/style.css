@@ -15,7 +15,7 @@
 #bgimg{
 	height: 100vh;
 	background: url(images/land.jpg) no-repeat;
-	background-size: 100%;
+	background-size: 300%;
 }
 
 .searchbar{
@@ -32,15 +32,15 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 500px;
+	width: 300px;
 	text-align: center;
 }
 
 input#s{
-	line-height: 15px;
-	width: 300px;
-	font-size: 20pt;
-	padding: 15px;
+	line-height: 10px;
+	width: 150px;
+	font-size: 15pt;
+	padding: 10px;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 /*	border-radius: 25px;*/
@@ -57,13 +57,14 @@ button, input, optgroup, select, textarea{
 #searchsubmit{
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
-	line-height: 15px;
-	padding: 23px;
+	line-height: 10px;
+	padding: 16.5px;
 	border: 0px;
 	vertical-align: middle;
-	font-size: 20pt;
+	font-size: 15pt;
 	/*background: rgba(127,118,116,1);*/
 	margin-left: -3px;
+	width: 75px;	
 }
 
 }
@@ -84,7 +85,7 @@ input#s{
 	padding: 21.5px;
 	font-size: 22pt;
 }
-
+#bgimg{background-size: 250%;}
 }
 
 /* Small Devices, Tablets */
@@ -101,6 +102,7 @@ input#s{
 	padding: 18.5px;
 	font-size: 24pt;
 }
+#bgimg{background-size: 200%;}
 
 }
 
@@ -118,6 +120,7 @@ input#s{
 	padding: 16px;
 	font-size: 27pt;
 }
+#bgimg{background-size: 150%;}
 
 }
 
@@ -135,5 +138,6 @@ input#s{
 	padding: 15px;
 	font-size: 30pt;
 }
+#bgimg{background-size: 100%;}
 
 }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+
 
 	<div class="col-xs-12" id="bgimg">
 		<!-- <img class="bgimg" src="<?php bloginfo('template_directory'); ?>/images/land.jpg" alt="background img" /> -->
@@ -9,7 +9,7 @@
 		</div>
 	</div>
 
-</div>
+
 
 
 
