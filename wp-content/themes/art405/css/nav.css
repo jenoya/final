@@ -1,0 +1,46 @@
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	nav{}
+	.navbar{margin-bottom: 0px; border-radius: 0;}
+	.navbar-default{background: rgba(127,118,116,1); border: none;}
+	.navbar-default .navbar-nav>li>a{color: white;}
+	.navbar-default .navbar-collapse{border: none;}
+	.navbar-default .navbar-toggle{border-color: rgba(0,128,185,1);}
+	logo{color: white;}
+	.navbar-default .navbar-toggle .icon-bar{background-color: black;}
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/*body{background-color: green;}*/
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

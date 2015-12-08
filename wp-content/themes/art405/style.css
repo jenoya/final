@@ -14,8 +14,7 @@
 /*body{background-color: blue;}*/
 #bgimg{
 	height: 100vh;
-	background: url(images/land.jpg) no-repeat;
-	background-size: 300%;
+
 }
 
 .searchbar{
