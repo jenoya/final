@@ -146,3 +146,17 @@ button, input, optgroup, select, textarea{
 	#bgimg{background-size: 100%;}
 
 }
+
+
+
+
+
+
+/*Max's helper code*/
+
+nav {
+	background-color: #414649;
+	color: white;
+	border-radius: 0 !important;
+	height: 55px;
+}

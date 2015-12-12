@@ -8,6 +8,16 @@ function register_my_menu() {
 //add theme support
 add_theme_support( 'post-thumbnails' );
 
+
+
+// checks to see if the page is active
+	function is_active($page){
+		if(is_page($page)){
+			echo 'active';
+		}
+	}
+
+
 //add widgets
 function arphabet_widgets_init() {
 
@@ -48,3 +58,5 @@ function wpt_register_css() {
     wp_enqueue_style( 'bootstrap.min' );
 }
 add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
+
+require_once('wp_bootstrap_navwalker.php');
