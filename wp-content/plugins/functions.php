@@ -36,3 +36,10 @@ function stockstalker_widgets_init() {
 
 }
 add_action( 'widgets_init', 'stockstalker_widgets_init' );
+
+$(".thumbnail").mouseenter(function() {
+    $(".post-content").show( "slide", {direction: "down" }, 750 );
+})
+.mouseleave(function() {
+    $(".post-content").hide( "slide", {direction: "down" }, 750 );
+});
