@@ -12,6 +12,12 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
 /*body{background-color: blue;}*/
+
+
+body {
+	font-family: 'Exo', sans-serif;
+}
+
 #bgimg{
 	height: 100vh;
 	background: url(images/land.jpg) no-repeat;
@@ -154,9 +160,21 @@ button, input, optgroup, select, textarea{
 
 /*Max's helper code*/
 
-nav {
+nav  {
 	background-color: #414649;
 	color: white;
 	border-radius: 0 !important;
 	height: 55px;
 }
+
+
+.title-top-section {
+	height: 300px;
+	background-color: #00aeef;
+}
+
+.title-section-text {
+	color: white;
+	font-size: 5em;
+}
+/*End of Max's Helper code*/

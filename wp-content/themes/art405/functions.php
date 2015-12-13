@@ -60,3 +60,4 @@ function wpt_register_css() {
 add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
 
 require_once('wp_bootstrap_navwalker.php');
+
