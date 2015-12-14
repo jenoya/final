@@ -56,15 +56,18 @@ input#s{
 /*	border-radius: 25px;*/
 	border: 0px;
 	vertical-align: middle;
-	background: rgba(127,118,116,0.75);
+	background-color: white;
+	color: rgba(0,128,185,1);
 }
 textarea:focus, input:focus{
 	outline: 0;
 }
-button, input, optgroup, select, textarea{
+button, optgroup, select, textarea{
 	color: rgba(0,128,185,1);
 }
 #searchsubmit{
+	background-color: rgba(0,128,185,1);
+	color: white;
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
 	line-height: 10px;

@@ -3,7 +3,7 @@
 Template Name: Categories Page
 */
 ?>
-<div class="container" style="background-color:white;">
+<div class="container" style="background-color:white; padding-bottom: 30px;">
 	<?php $category = new WP_Query(['post_type'=>'category-box']);
 	 	if ($category->have_posts()) : while ($category->have_posts()) : $category->the_post(); ?>
 	 		<div class="col-xs-12">
