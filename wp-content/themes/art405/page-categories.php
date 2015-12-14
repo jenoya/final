@@ -3,12 +3,12 @@
 Template Name: Categories Page
 */
 ?>
-<div>
-	<?php $category = new WP_Query(['post_type'=>'category']);
+<div class="container" style="background-color:white;">
+	<?php $category = new WP_Query(['post_type'=>'category-box']);
 	 	if ($category->have_posts()) : while ($category->have_posts()) : $category->the_post(); ?>
-		<div class="container">
-			<div class="col-md-12">
-				<img src="<?php the_field('background-image');?>" class="img-responsive">
+		<div class="container" style="padding: 0px;">
+			<div class="col-md-12" style="padding: 0px;">
+				<img style="margin-top:30px; padding right:30px;"src="<?php the_field('background_image'); ?>" class="img-responsive">
 				<div class="carousel-caption">
 					<h3><?php the_title();?></h3>
 					<p><?php the_content(''); ?></p>
@@ -17,7 +17,7 @@ Template Name: Categories Page
 		
 		</div>
 	<?php endwhile; else: ?>
-	    <p>Sorry, no ads matched your criteria.</p>
+	    <p>Sorry, no Category Boxes match your criteria</p>
 	<?php endif; ?>
 </div>
 
