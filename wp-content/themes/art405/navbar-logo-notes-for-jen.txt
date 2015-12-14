@@ -1,0 +1,7 @@
+<?php $logo = new WP_Query(['post_type'=>'stockstalker-logo']);
+	if($logo->have_posts()): while ($logo->have_posts()) : $logo->the_post(); ?>
+		<a href="<?php bloginfo('url'); ?>">
+			<img src="<?php the_field('image-logo');?>" />
+		</a>
+
+	<?php endwhile; endif; ?>
