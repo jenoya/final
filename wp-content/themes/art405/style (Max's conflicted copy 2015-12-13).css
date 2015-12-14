@@ -160,6 +160,14 @@ button, input, optgroup, select, textarea{
 
 /*Max's helper code*/
 
+.navbar-default> .container-fluid  {
+	background-color: #414649;
+	color: #00AEFF;
+	border-radius: 0 !important;
+	height: 55px;
+}
+
+
 .title-top-section {
 	height: 300px;
 	background-color: #00aeef;
