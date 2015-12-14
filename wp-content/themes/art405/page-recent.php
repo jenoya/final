@@ -3,20 +3,18 @@
 Template Name: Recent Page
 */
 ?>
-<div class="container">
-	<h1>Recent Posts</h1>
-	<hr>
+<div class="container" style="background-color:white;">
 
-	<?php if(have_posts()): while (have_posts()) : the_post(); ?>
-		<img src="<?php the_field('image');?>"  style="max-height:300px;" />
-		
-		<h2>
-			<a href="<?php the_permalink() ?>">
-				<?php the_title(); ?>
-			</a>
-		</h2>
-		
-		<hr>
+	<h1>RECENT POSTS</h1>
+<?php $recent = new WP_Query([
+	'post_type'=>'food-image',
+	'post_type'=>'animal-image',
+	'post_type'=>'illustration-image',
+	'post_type'=>'landscape-image',
+]);
+	if($recent->have_posts()): while ($recent->have_posts()) : $recent->the_post(); ?>
+		<img src="<?php the_post_thumbnail(); ?>">
+				
 
 	<?php endwhile; endif; ?>
 </div>
