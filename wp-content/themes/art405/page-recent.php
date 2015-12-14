@@ -13,8 +13,7 @@ Template Name: Recent Page
 	'post_type'=>'landscape-image',
 ]);
 	if($recent->have_posts()): while ($recent->have_posts()) : $recent->the_post(); ?>
-		<img src="<?php the_post_thumbnail(); ?>">
-				
+		<?php echo get_the_post_thumbnail(); ?>
 
 	<?php endwhile; endif; ?>
 </div>

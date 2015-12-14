@@ -37,5 +37,4 @@ function stockstalker_widgets_init() {
 }
 add_action( 'widgets_init', 'stockstalker_widgets_init' );
 
-add_theme_support( 'featured-image' );
 add_theme_support( 'post-thumbnails' );

@@ -78,6 +78,13 @@ button, input, optgroup, select, textarea{
 	/*padding-right: 20px;*/
 }
 
+
+/*Jen's custom php classes*/
+.post-thumbnail{
+	max-height: 300px;
+}
+/*end Jen's custom php classes*/
+
 }
 
 
