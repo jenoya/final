@@ -8,6 +8,7 @@
 <!-- my css -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css">
 
 	<?php wp_head();?>
 

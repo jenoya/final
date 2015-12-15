@@ -12,10 +12,6 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
 /*body{background-color: blue;}*/
-#bgimg{
-	height: 100vh;
-
-}
 h1 h2 h3 h4 p{color: rgba(0,128,185,1);}
 
 .widget_search .screen-reader-text {
@@ -85,6 +81,12 @@ button, optgroup, select, textarea{
 /*Jen's custom php classes*/
 .post-thumbnail{
 	max-height: 300px;
+}
+
+.carousel-caption{
+	color: #fff;
+	width: 200px;
+	height: 500px;
 }
 /*end Jen's custom php classes*/
 
