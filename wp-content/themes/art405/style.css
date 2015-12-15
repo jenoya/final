@@ -11,7 +11,10 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-/*body{background-color: blue;}*/
+body{
+	/*background-color: blue;*/
+	font-family: 'Exo', sans-serif;
+}
 h1 h2 h3 h4 p{color: rgba(0,128,185,1);}
 
 .widget_search .screen-reader-text {

@@ -10,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css">
 
+<!-- font -->
+	<link href='https://fonts.googleapis.com/css?family=Exo:400,300,300italic,500,400italic,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
 	<?php wp_head();?>
 
 </head>
