@@ -28,10 +28,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
-    </div>
+      <div class="navbar-brand">
+      	<a href="<?php bloginfo( 'url' ); ?>"><img class="img-responsive2" src="http://www.stockstalker.maxmurillo.com/wp-content/uploads/2015/12/StockStalker-nav2.png"></a>
+	  </div>
+	</div>
         <?php
             wp_nav_menu( array(
                 'menu'              => 'primary',

@@ -166,11 +166,29 @@ button, input, optgroup, select, textarea{
 }
 
 .title-section-text {
-	color: white;
+	color: #107390;
 	font-size: 5em;
+	margin-top: 110px;
 }
 
 
+.panel-default {
+	margin-top: 50px;
+}
 
 
+.img-responsive2 {
+    display: inline-block;
+    max-width: 70%;
+    margin-top: 0;
+}
+
+.blue-text {
+	color: #107390;
+}
+
+
+.container> .panel-body {
+	background-color: #2b2c2b;
+}
 /*End of Max's Helper code*/
